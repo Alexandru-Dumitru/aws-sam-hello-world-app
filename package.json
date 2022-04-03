@@ -4,7 +4,8 @@
   "description": "Hello World app using AWS SAM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sam build",
+    "deploy": "sam deploy --guided",
   },
   "author": "Alex Dumitru",
   "license": "ISC"
